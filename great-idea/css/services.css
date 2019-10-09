@@ -63,63 +63,63 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* My code here. */
 
 nav {
-	display: flex;
-	justify-content: space-around;
-	margin: 20px;
-	width: 880px;
-	color: gray;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    color: gray;
+
 }
 
-.button {
-	/* margin: 20px 20px 20px 140px; */
-	display: flex;
-	justify-content: center;
-	border: 1px solid black;
-	padding: 8px;
-	width: 150px;
-	margin-left: 100px;
+.header-container {
+    display: flex;
+    justify-content: center;
+    
 }
 
-.line {
-	border: 1px solid gray;
-	width: 850px;
+.services {
+    margin: 20px;
+    padding: 20px;
+
 }
 
 .container {
-	display: flex;
+    border: 1px solid black;
+    background: rgb(235, 233, 233);
+    margin: 20px;
+    padding: 20px;
+    height: 200px;
+    width: 420px;
 }
 
-.top-section {
-	display: flex;
-	justify-content: space-around;
-	margin: 20px;
-	padding: 20px;
-	width: 880px;
+.outer-container {
+    display: flex;
+    justify-content: space-betweem;
 }
 
-.headertext {
-	font-size: 80px;
-	text-align: center;
+.outer-container2 {
+    display: flex;
+    justify-content: space-betweem;
+    padding: 40px;
 }
 
-.mid-section {
-	display: flex;
-	justify-content: space-between;
-	width: 880px;
-	margin: 10px;
+.button {
+    border: 1px solid black;
+    padding: 5px;
+    background: white;
+    width: 150px;
+    text-align: center;
 }
 
-.img {
-	margin: 10px;
-	width: 880px;
+hr {
+    color: gray;
+    width: 90%;
 }
 
-.lower-section {
-	display: flex;
-	justify-content: space-between;
-	width: 880px;
-	margin: 10px;
+.copy {
+    display: flex;
+    justify-content: center;
 }
